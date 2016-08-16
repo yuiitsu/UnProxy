@@ -47,3 +47,6 @@ ul{list-style: none;}
 .tips{color:#999;}
 .tips h2{border-bottom:1px solid #eee;padding-bottom:10px;font-size:12px;margin-bottom:10px;}
 .tips ul{font-size:12px;}
+
+.copyright{text-align:center;color:#999;font-size:12px;}
+.copyright a{color:#999;}
