@@ -1,0 +1,49 @@
+body{font-size:14px;font-family: "Monaco", "Hiragino Sans GB", "Microsoft YaHei", Trebuchet, "Trebuchet MS",
+    Tahoma,"Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;}
+
+*{outline:none;}
+
+h1,h2,ul{padding:0;margin:0;font-size:16px;}
+ul{list-style: none;}
+
+.fl{float:left}
+.fr{float:right;}
+.radius3{border-radius:3px;}
+.radius5{border-radius:5px;}
+.background{background-color:#f7f7f7;}
+
+.input{border:1px solid #999;padding:5px 10px;border-radius:3px;}
+.small{width:50px;}
+.middle{width:200px;}
+.long{width:310px;}
+
+.button{height:27px;padding:0 10px;background-color:#fb4f59;color:#fff;border:0;border-radius:3px;cursor:pointer;}
+
+.header{height:30px;line-height:30px;border-bottom:1px solid #ddd;padding-bottom:10px;position:relative;}
+.logo{line-height:30px;font-size:20px;}
+.logo img{height:30px;float:left;margin-right:10px;}
+
+.switch_box{position:absolute;width:50px;height:30px;right:10px;top:5px;
+    border-radius:15px;overflow:hidden;}
+.switch_green{background-color:#009900;position:absolute;left:0;top:0;width:50px;height:30px;}
+.switch_gray{background-color:#ddd;position:absolute;left:0;top:0;width:50px;height:30px;}
+.switch_button{background-color:#fff;height:26px;width:26px;border-radius:50%;position:absolute;left:1px;top:1px;border:1px solid #ddd;}
+
+.content{height:519px;}
+
+.side{width:200px;height:519px;}
+.side_title{height:40px;line-height:40px;}
+.side_list{height:479px;overflow-y:auto;}
+.side ul{}
+.side ul li{height:30px;line-height:30px;background-color:#f7f7f7;padding:0 10px;position:relative;border-bottom:1px solid #eee;}
+.side ul li span.site_list_del{cursor:pointer;float:right;font-size:12px;color:#999;}
+.side ul li span.site_list_name{width:150px;height:30px;line-height:30px;overflow:hidden;}
+
+.form{width:530px;}
+.form_item{padding-bottom:30px;}
+.form_content{padding:10px;}
+.form_content label{display:inline-block;width:50px;text-align:right;}
+
+.tips{color:#999;}
+.tips h2{border-bottom:1px solid #eee;padding-bottom:10px;font-size:12px;margin-bottom:10px;}
+.tips ul{font-size:12px;}
