@@ -37,7 +37,7 @@ ul{list-style: none;}
 .side ul{}
 .side ul li{height:30px;line-height:30px;background-color:#f7f7f7;padding:0 10px;position:relative;border-bottom:1px solid #eee;}
 .side ul li span.site_list_del{cursor:pointer;float:right;font-size:12px;color:#999;}
-.side ul li span.site_list_name{width:150px;height:30px;line-height:30px;overflow:hidden;}
+.side ul li span.site_list_name{width:150px;height:30px;line-height:30px;overflow:hidden;font-size:12px;}
 
 .form{width:530px;}
 .form_item{padding-bottom:30px;}

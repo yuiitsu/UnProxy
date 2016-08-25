@@ -1,4 +1,7 @@
-
+/**
+ * UnProxy
+ * popup script
+ */
 var UnProxy = {
     
     getData: function() {
@@ -13,7 +16,8 @@ var UnProxy = {
                 // 显示站点列表
                 var _html = ['<ul>'];
                 for (var i in siteList) {
-                    var item = '<li><span class="fl site_list_name">'+ siteList[i] +'</span><span class="fr radius3 site_list_del" data-site="'+ siteList[i] +'">x</span></li>';
+                    var item = '<li><span class="fl site_list_name">'+ siteList[i] +
+                        '</span><span class="fr radius3 site_list_del" data-site="'+ siteList[i] +'">x</span></li>';
                     _html.push(item)
                 }
                 _html.push('</ul>');
