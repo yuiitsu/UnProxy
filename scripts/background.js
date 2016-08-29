@@ -1,6 +1,5 @@
-/**
- * background script
- */
+
+
 var UnProxyBack = {
 
     /**
@@ -312,7 +311,7 @@ var UnProxyBack = {
     },
 
     /**
-     * 初始化
+     * 初妈化
      */
     init: function() {
         // 监听请求
