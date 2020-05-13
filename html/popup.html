@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>UnProxy</title>
+	<link href="../style/common.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../scripts/jquery-1.11.3.min.js"></script>
+</head>
+<body style="width:770px;height:550px;">
+	<div class="container">
+		<div class="header">
+			<h1 class="logo">
+				<img src="../images/logo.png" alt="" />
+				UnProxy
+			</h1>
+            <div class="switch_box" id="switch">
+                <div class="switch_gray"></div>
+                <div class="switch_green"></div>
+                <div class="switch_button"></div>
+            </div>
+		</div>
+		<div class="content">
+            <div class="side fl">
+                <h2 class="side_title">支持站点</h2>
+                <div class="side_list radius5 background" id="site_list">
+                    数据加载中...
+                </div>
+            </div>
+            <div class="form fr">
+                <div class="form_item">
+                    <h2 class="side_title">服务器</h2>
+                    <div class="form_content background radius5">
+                        <label>HOST:</label>
+                        <input type="text" class="input middle" id="host" placeholder="127.0.0.1" />
+                        <label>PORT:</label>
+                        <input type="text" class="input small" id="port" placeholder="8080" />
+                        <button class="button" id="save_server">确定</button>
+                    </div>
+                </div>
+                <div class="form_item">
+                    <h2 class="side_title">添加站点</h2>
+                    <div class="form_content background radius5">
+                        <label>SITE:</label>
+                        <input type="text" placeholder="google.com" class="input long" id="site" />
+                        <button class="button" id="save_site">确定</button>
+                    </div>
+                </div>
+                <div class="form_item">
+                    <div class="form_content background tips radius5">
+                        <h2>说明</h2>
+                        <ul>
+                            <li>1. 默认host和port为不太稳定的测试服务,如无法正常代理，请谅解</li>
+                            <li>2. 如果不填二级域名，系统会以*号代替</li>
+                            <li>3. 因为一个站点的资源有可能分布在不同的域名下，所以，如果发现仍然访问有问题，请找出名资源域名添加进支持站点中</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">[<a href="http://unproxy.unjs.me" target="_blank">官网</a>]</div>
+            </div>
+        </div>
+	</div>
+    <script type="text/javascript" src="../scripts/unproxy.js"></script>
+</body>
+</html>
